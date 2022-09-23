@@ -15,7 +15,7 @@ export const projects = [
       "This project is a template/base to develop e-commerces/shopping carts. I used React, TypeScript, and Bootstrap.",
     image: "/images/shoppingcart.png",
     tags: ["React", "TypeScript", "Bootstrap"],
-    source: "https://duecoder.github.io/shopping-cart",
+    source: "https://shopping-cart-bay-psi.vercel.app/store",
     visit: "https://github.com/duecoder/react-vite-ts-shoppingcart",
     id: 1,
   },
