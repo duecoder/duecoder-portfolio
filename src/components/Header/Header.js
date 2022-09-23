@@ -32,29 +32,23 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink onClick={() => (window.location = "#projects")}>
-            Projects
-          </NavLink>
+        <Link href="#projects" passHref>
+          <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#skills">
-          <NavLink onClick={() => (window.location = "#skills")}>
-            Skills
-          </NavLink>
+          <NavLink>Skills</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#about">
-          <NavLink onClick={() => (window.location = "#about")}>About</NavLink>
+          <NavLink>About</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#contact">
-          <NavLink onClick={() => (window.location = "#contact")}>
-            Talk To Me
-          </NavLink>
+          <NavLink>Talk To Me</NavLink>
         </Link>
       </li>
     </Div2>
