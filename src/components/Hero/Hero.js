@@ -23,7 +23,9 @@ const Hero = () => (
         NodeJS, API Rest databases.
       </SectionText>
       <Link href="#about" passHref>
-        <Button>Tell Me More</Button>
+        <Button href="#about" passHref>
+          Tell Me More
+        </Button>
       </Link>
     </LeftSection>
   </Section>
