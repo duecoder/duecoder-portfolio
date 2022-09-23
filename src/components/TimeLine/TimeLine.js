@@ -74,8 +74,8 @@ const Timeline = () => {
         JavaScript and TypeScript to develop some projects, while I still study
         new stuff (like NextJS).
         <br />
-        Althought it's not my priority, I enjoy studying back-end stuff, such as
-        API rest, NodeJS, and the connection between the both sides.
+        Althought it's not my priority, I enjoy studying the backend stack, such
+        as API rest, NodeJS, and the connection between the both sides.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <Fragment>

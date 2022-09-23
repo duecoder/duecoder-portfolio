@@ -19,9 +19,8 @@ const Hero = () => (
         My name is Eduardo Castro aka 'Due'. I'm a Web Developer with some
         experience in ReactJS, NextJS, JavaScript, TypeScript, JSX, HTML5 and
         CSS3.
-        <br />
-        I'm also a bit acquainted to some back-end stuff, like NodeJS, API Rest
-        databases.
+        <br />I also have knowledge and interest in the backend stack such as
+        NodeJS, API Rest databases.
       </SectionText>
       <Button onClick={() => (window.location = "#about")}>Tell Me More</Button>
     </LeftSection>

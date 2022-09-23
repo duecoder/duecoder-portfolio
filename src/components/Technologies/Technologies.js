@@ -22,13 +22,16 @@ const Technologies = () => (
     <SectionTitle main>Skills</SectionTitle>
     <SectionText>
       I've been working for a while with ReactJS, JavaScript, HTML and CSS, but
-      also have some knowledge on the back-end stuff.
+      also have some knowledge in the backend stack.
+      <br />
+      Landing pages, e-commerces and business/brand websites, are some of the
+      projects I have done.
     </SectionText>
     <List>
       <ListItem>
         <DiReact size="4rem" />
         <ListContainer>
-          <ListTitle>Front-end</ListTitle>
+          <ListTitle>Front end</ListTitle>
           <ListParagraph>
             Experience with
             <br />
@@ -39,7 +42,7 @@ const Technologies = () => (
       <ListItem>
         <DiBootstrap size="4rem" />
         <ListContainer>
-          <ListTitle>Front-end</ListTitle>
+          <ListTitle>Front end</ListTitle>
           <ListParagraph>
             Experience with
             <br />
@@ -50,7 +53,7 @@ const Technologies = () => (
       <ListItem>
         <DiReact size="4rem" />
         <ListContainer>
-          <ListTitle>Front-end</ListTitle>
+          <ListTitle>Front end</ListTitle>
           <ListParagraph>
             Experience with
             <br />
@@ -61,7 +64,7 @@ const Technologies = () => (
       <ListItem>
         <SiJavascript size="3rem" style={{ marginTop: "10px" }} />
         <ListContainer>
-          <ListTitle>Front-end</ListTitle>
+          <ListTitle>Front end</ListTitle>
           <ListParagraph>
             Experience with
             <br />
@@ -72,7 +75,7 @@ const Technologies = () => (
       <ListItem>
         <SiTypescript size="3rem" style={{ marginTop: "10px" }} />
         <ListContainer>
-          <ListTitle>Front-end</ListTitle>
+          <ListTitle>Front end</ListTitle>
           <ListParagraph>
             Experience with
             <br />
@@ -83,7 +86,7 @@ const Technologies = () => (
       <ListItem>
         <DiFirebase size="4rem" />
         <ListContainer>
-          <ListTitle>Back-end</ListTitle>
+          <ListTitle>Back end</ListTitle>
           <ListParagraph>
             Experience with
             <br />

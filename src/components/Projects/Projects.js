@@ -44,12 +44,15 @@ const Projects = () => (
                   ))}
                 </TagList>
                 <UtilityList>
-                  <ExternalLinks href={visit}>
+                  <ExternalLinks href={visit} target="_blank">
                     <DiGithubBadge size={30} />
                     <br />
                     GitHub
                   </ExternalLinks>
-                  <ExternalLinks href={source ? source : "javascript:void(0);"}>
+                  <ExternalLinks
+                    href={source ? source : "javascript:void(0);"}
+                    target={source ? "_blank" : ""}
+                  >
                     <GoBrowser size={30} />
                     <br />
                     Visit
