@@ -49,7 +49,7 @@ const Projects = () => (
                     <br />
                     GitHub
                   </ExternalLinks>
-                  <ExternalLinks href={source}>
+                  <ExternalLinks href={source ? source : "javascript:void(0);"}>
                     <GoBrowser size={30} />
                     <br />
                     Visit

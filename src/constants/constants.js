@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "White Fluff Records",
     description:
-      "I also own a music records label, called White Fluff Records. I'm developing its website, using ReactJS and JavaScript.",
+      "I also own a music record label, called White Fluff Records. I'm developing its website, using ReactJS and JavaScript.",
     image: "/images/sitewf.png",
     tags: ["React", "JavaScript"],
     source: "https://duecoder.github.io/wf-rec",
@@ -35,7 +35,7 @@ export const projects = [
       "A simple To Do List project that I've made when starting React Studies, learning about useState function and how it works/performs.",
     image: "/images/todolist-react.png",
     tags: ["React", "JavaScript"],
-    source: "https://duecoder.github.io/todolist",
+    source: "",
     visit: "https://github.com/duecoder/React-ToDoList",
     id: 3,
   },
