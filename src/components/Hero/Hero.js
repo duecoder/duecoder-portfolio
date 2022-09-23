@@ -22,7 +22,9 @@ const Hero = () => (
         <br />I also have knowledge and interest in the backend stack such as
         NodeJS, API Rest databases.
       </SectionText>
-      <Button onClick={() => (window.location = "#about")}>Tell Me More</Button>
+      <Link href="#about" passHref>
+        <Button>Tell Me More</Button>
+      </Link>
     </LeftSection>
   </Section>
 );
