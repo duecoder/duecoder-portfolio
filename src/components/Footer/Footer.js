@@ -36,19 +36,16 @@ const Footer = () => {
           </Slogan>
         </CompanyContainer>
         <SocialContainer style={{ marginRight: "3px" }}>
-          <SocialIcons style={{ marginLeft: "5px" }} href="https://github.com">
+          <SocialIcons href="https://github.com/duecoder" target="_blank">
             <AiFillGithub size={"4rem"} />
           </SocialIcons>
           <SocialIcons
-            style={{ marginLeft: "5px" }}
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/eduardodue"
+            target="_blank"
           >
             <AiFillLinkedin size={"4rem"} />
           </SocialIcons>
-          <SocialIcons
-            style={{ marginLeft: "5px" }}
-            href="https://instagram.com"
-          >
+          <SocialIcons href="https://instagram.com/dueprod" target="_blank">
             <AiFillInstagram size={"4rem"} />
           </SocialIcons>
         </SocialContainer>

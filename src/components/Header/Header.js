@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { DiCode } from "react-icons/di";
+import paths from "../../paths";
 
 import {
   Container,
@@ -32,34 +33,34 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link href="#projects" to={paths.projects}>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#skills">
+        <Link href="#skills" to={paths.skills}>
           <NavLink>Skills</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
+        <Link href="#about" to={paths.about}>
           <NavLink>About</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#contact">
+        <Link href="#contact" to={paths.contact}>
           <NavLink>Talk To Me</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/duecoder">
+      <SocialIcons href="https://github.com/duecoder" target="_blank">
         <AiFillGithub size={"4rem"} />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com/in/eduardodue">
+      <SocialIcons href="https://linkedin.com/in/eduardodue" target="_blank">
         <AiFillLinkedin size={"4rem"} />
       </SocialIcons>
-      <SocialIcons href="https://instagram.com/dueprod">
+      <SocialIcons href="https://instagram.com/dueprod" target="_blank">
         <AiFillInstagram size={"4rem"} />
       </SocialIcons>
     </Div3>
