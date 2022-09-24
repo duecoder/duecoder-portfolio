@@ -9,7 +9,7 @@ import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
 const Hero = () => (
-  <Section row nopadding>
+  <Section row nopadding className="hero">
     <LeftSection>
       <SectionTitle main center>
         Hello! Welcome <br />
@@ -23,9 +23,7 @@ const Hero = () => (
         NodeJS, API Rest databases.
       </SectionText>
       <Link href="#about" passHref>
-        <Button href="#about" passHref>
-          Tell Me More
-        </Button>
+        <Button>Tell Me More</Button>
       </Link>
     </LeftSection>
   </Section>

@@ -14,7 +14,6 @@ const Home = () => {
       <Section grid>
         <Hero />
         <BgAnimation xs={0} sm={0} md={0} lg={12} />
-        {/* <Due xs={0} sm={0} lg={12} /> */}
       </Section>
       <Projects />
       <Technologies />

@@ -23,6 +23,7 @@ export const Section = styled.section`
     padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
 
     width: calc(100vw - 32px);
+    width: 100%;
     flex-direction: column;
     place-items: center;
   }
@@ -203,6 +204,9 @@ export const ButtonBack = styled.div`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
     width: 100%;
     height: 32px;
     font-size: 14px;

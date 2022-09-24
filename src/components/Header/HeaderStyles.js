@@ -37,7 +37,9 @@ export const Div2 = styled.div`
   display: flex;
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
-    display: block;
+    width: 100%;
+    display: flex;
+    // margin: 0 auto;
     grid-area: 3 / 2 / 2 / 3;
   }
   margin-top: 20px;

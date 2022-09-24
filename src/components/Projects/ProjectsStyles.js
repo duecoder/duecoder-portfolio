@@ -11,7 +11,7 @@ export const Img = styled.img`
 export const GridContainer = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(420px, 5fr));
-  // padding: 3rem;
+  padding: 3rem;
   place-items: center;
   column-gap: 4rem;
   row-gap: 2rem;

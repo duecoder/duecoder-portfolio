@@ -12,7 +12,6 @@ const GlobalStyles = createGlobalStyle`
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-
   }
   body {
     font-family: ${(props) => props.theme.fonts.main};
@@ -20,7 +19,6 @@ const GlobalStyles = createGlobalStyle`
     background: ${(props) => props.theme.colors.background1};
     color: ${(props) => props.theme.colors.primary1};
     cursor: default;
-
   }
   h1,h2,h3,h4,h5,h6,button {
     font-family: ${(props) => props.theme.fonts.title};
@@ -33,6 +31,11 @@ const GlobalStyles = createGlobalStyle`
   }
   .form-style{
     justify-content: space-between;
+  }
+  .hero {
+    @media ${(props) => props.theme.breakpoints.sm} {
+      // margin-top: 110px;
+    }
   }
   form {
     max-width: 65%;
@@ -87,6 +90,10 @@ const GlobalStyles = createGlobalStyle`
     border-radius: 0;
     position: relative;
     transition: 0.3s ease-in-out;
+    @media ${(props) => props.theme.breakpoints.sm} {
+      margin-top: 4px;
+      margin-bottom: 15px;
+    }
   }
   form button span {
     z-index: 1;

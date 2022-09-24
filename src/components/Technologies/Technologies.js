@@ -62,7 +62,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <SiJavascript size="3rem" style={{ marginTop: "10px" }} />
+        <SiJavascript size="4rem" />
         <ListContainer>
           <ListTitle>Front end</ListTitle>
           <ListParagraph>
@@ -73,7 +73,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <SiTypescript size="3rem" style={{ marginTop: "10px" }} />
+        <SiTypescript size="4rem" />
         <ListContainer>
           <ListTitle>Front end</ListTitle>
           <ListParagraph>

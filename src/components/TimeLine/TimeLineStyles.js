@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const CarouselContainer = styled.ul`
-  max-width: 1040px;
+  // max-width: 1040px;
   background: #3a4218;
   padding: 0rem;
   list-style: none;
   display: flex;
   justify-content: space-between;
-  /* overflow-x: hidden; */
+  // overflow-x: hidden;
 
   margin-left: 32px;
   &:first-of-type {
@@ -132,7 +132,7 @@ export const CarouselButtons = styled.div`
   visibility: hidden;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    display: flex;
+    display: block;
     visibility: visible;
     margin-bottom: 48px;
   }
@@ -158,6 +158,6 @@ export const CarouselButtonDot = styled.div`
   background-color: white;
   border-radius: 10px;
   margin: auto;
-  width: 3px;
-  height: 3px;
+  width: 4px;
+  height: 4px;
 `;
